@@ -1,0 +1,6 @@
+# clrs=input("enter colours",).split(",")
+# print(clrs[0])
+# print(clrs[-1])
+clrs=input("enter colours",)
+print(clrs[0:2])
+print(clrs[-1])
