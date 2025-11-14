@@ -1,9 +1,21 @@
 class publisher:
-    name = "abc"
-
+    def getdetails(self):
+        
+            name=input("enter name of publisher")
+            self.name=name
+    def display(self):
+        print("publisher: " ,self.name)        
+        
+    
 class book(publisher):
-    title = "py"
-    author = "auth"
+    def getdetails(self):
+        title=input("enter book details")
+        author=input("enter name of author")
+        self.title=title
+        self.author=author
+    def display(self):
+        print("title: ",self.title)
+        print("author: ", self.author)    
 
 class python(book):
     price = 150
